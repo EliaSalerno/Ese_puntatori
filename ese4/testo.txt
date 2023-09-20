@@ -1,0 +1,4 @@
+Esercizio 4. Scrivere una funzione che prende come parametro un array di interi e restituisce il numero di
+valori positivi presenti nell'array. Si operi sugli elementi dell'array tramite l'aritmetica dei puntatori invece
+che tramite gli indici.
+Scrivere poi un programma che usa la funzione scritta

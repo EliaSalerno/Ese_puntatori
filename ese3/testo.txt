@@ -1,0 +1,8 @@
+Esercizio 3. Scrivere una funzione che calcola l'equazione di una retta nel piano passante per due punti
+(x1,y1) e (x2, y2). La funzione riceve come parametri i quattro valori double x1, y1, x2 e y2 (passati per valore)
+e due ulteriori parametri me q (passati per riferimento) in cui la funzione deve scrivere il coefficiente angolare
+m e il termine noto q dell' equazione della retta passante per i due punti dati. Qualora la retta sia verticale
+(cioè avente equazione y=c) il valore di m deve essere impostato a INFINITY (tale costante è definita nella
+libreria math.h) e q deve essere uguale a c.
+Scrivere poi un programma che chiede all'utente di inserire le coordinate di due punti nel piano e stampa
+l'equazione della retta passante per i due punti dati.

@@ -1,0 +1,4 @@
+Esercizio 5. Scrivere una funzione che prende come parametro un array di interi e restituisce il
+numero di elementi che sono maggiori del loro successore. Si operi sugli elementi dell'array tramite
+l'aritmetica dei puntatori invece che tramite gli indici.
+Scrivere poi un programma che usa la funzione scritta.

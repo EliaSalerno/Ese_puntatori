@@ -1,0 +1,6 @@
+Esercizio 2. Modificare la funzione precedente in modo che calcoli le soluzioni complesse
+dell'equazione. Più precisamente, la funzione avrà tre parametri (di tipo double) passati per valore
+che rappresentano i coefficienti a, b e c dell'equazione e quattro parametri (di tipo double) passati
+per riferimento. Tali parametri rappresentano la parte reale e la parte immaginaria di ciascuna delle
+due soluzioni.
+Modificare consistentemente il programma dell'esercizio precedente.
