@@ -1,0 +1,21 @@
+Per lavorare più agevolmente ho provveduto a realizzare un immagine su docker (se siete interessati all'argomento potete approfondire oneline);
+come usufruire di questo strumento:
+aprite il browser... digitate nella barra degli indirizzi https://labs.play-with-docker.com, se siete già registrati dovete solo loggarvi altrimenti
+vi registrate! 
+a sinistra sotto il pulsante arancio con scritto "CLOSE SESSION", trovate la scritta "+add new istance", appoggiate delicatamente il mouse sopra
+e fate un click singolo con il dito che usate per indicare... una volta aperta una nuova istanza di docker, potete digitare i comandi di configurazione di git
+che avete (e sottolineo avete) imparato in informatica... e do per scontato che non abbiate problemi a risolvere i vostri problemi da soli... 
+magari con un adeguata ricerca online.
+dopo aver configurato git fate la clone del repositori che vi ho comunicato (si dovete farlo anche nell'istanza di docker).
+Digitate il seguente comando per cancellare la dipendenza dal repository che vi ho comunicato:
+
+ -> rm -rf .git
+
+poi reinizializzate questo repository con git e collegatelo con un vostro repositori remoto.
+una volta terminato questo tedioso procedimento dovete digitare questi comandi:
+
+1-> docker build -t imgpunt .
+2-> docker run -v Ese_puntatori:/home -it --rm imgpunt
+
+ecco se tutto va bene siamo fregati. 
+buon lavoro
